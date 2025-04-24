@@ -1,0 +1,20 @@
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 250px;
+    margin: auto;
+}
+
+.grid-cell {
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px; 
+}
+
+.grid-cell:hover {
+    background-color: lightblue;
+}
