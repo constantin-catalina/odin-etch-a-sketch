@@ -9,7 +9,18 @@
 </head>
 <body style="text-align: center">
     <h1>Etch-a-Sketch</h1>
-    <div id="grid-container">
+    <div class = "container">
+        <div id="options">
+            <div>
+                <h3>Options</h3>
+            </div>
+            <div>
+                <label for ="grid-size">Grid Size:</label>
+                <input type="number" id="grid-size" min="1" max="100" value="5">
+            </div>
+            <button id="generate-grid">Generate grid</button>
+        </div>
+        <div id="grid-container"></div>
     </div>
 </body>
 </html>
