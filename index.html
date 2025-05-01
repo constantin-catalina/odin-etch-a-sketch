@@ -12,13 +12,32 @@
     <div class = "container">
         <div id="options">
             <div>
-                <h3>Options</h3>
+                <h3>Grid settings</h3>
             </div>
             <div>
                 <label for ="grid-size">Grid Size:</label>
                 <input type="number" id="grid-size" min="1" max="100" value="5">
             </div>
-            <button id="generate-grid">Generate grid</button>
+            <div class = "grid-controls">
+                <button id="generate-grid" class="option-button">Generate grid</button>
+                <button id="clear-grid" class="option-button">Clear grid</button>
+            </div>
+            <div>
+                <h3>Color options</h3>
+            </div>
+            <div>
+                <label for="color-button">Pick a custom color:</label>
+                <input type="color" id="color-picker" value="#ffffff">
+            </div>
+            
+            <div>Or choose a color option:</div>
+            <div class="color-options">
+                <button id="black" class="option-button">Black</button>
+                <button id="rainbow" class="option-button">Rainbow</button>
+            </div>
+
+            <button id="eraser" class="option-button">Eraser</button>
+            
         </div>
         <div id="grid-container"></div>
     </div>

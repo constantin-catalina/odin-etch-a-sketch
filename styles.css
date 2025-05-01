@@ -18,14 +18,23 @@ body{
     flex-direction: column;
     background-color: #3F4F44;
     width: 300px;
-    height: 500px;
+    height: 400px;
     border-radius: 10px;
     align-items: center;
     margin: auto;
     gap: 10px;
 }
 
-#generate-grid{
+.color-options{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.option-button{
     border: none;
     border-radius: 5px;
     width: 50%;
@@ -46,14 +55,20 @@ body{
 
 .grid-cell {
     box-sizing: border-box;
-    border-color: black;
+    border-color: #2C3930;
     border-style: solid;
     border-width: 1px; 
     background-color: white;
     width: 100%;
     aspect-ratio: 1/1;
 }
-
+/*
 .grid-cell:hover {
     background-color: lightblue;
+}
+*/
+.grid-controls{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
