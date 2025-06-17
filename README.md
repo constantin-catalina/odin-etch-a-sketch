@@ -23,7 +23,7 @@ This project lets users draw by hovering over a grid of squares, changing their 
 
 1. **Clone the repository**:
    ```
-   git clone https://github.com/constantin-catalina/etch-a-sketch.git
+   git clone https://github.com/constantin-catalina/odin-etch-a-sketch
    ```
 2. **Navigate to the project folder**:
    ```
